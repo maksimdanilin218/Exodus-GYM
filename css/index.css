@@ -1,0 +1,524 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: "Lucida Sans";
+}
+/*header*/
+.header {
+    background-image: url(../img/header_foto.png);
+    margin-left: -24px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1000px;
+}
+.menu {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+    width: auto;
+}
+.logotip {
+    width: 130px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.button__menu {
+    display: flex;
+    width: auto;
+    margin-top: 60px;
+    height: 30px;
+    gap: 20px;
+}
+.home__btn {
+    width: 120px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: azure;
+}
+.training__btn {
+    width: 160px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: azure;
+}
+.shop__btn {
+    width: 120px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: azure;
+}
+.contact__btn {
+    width: 140px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: azure;
+}
+.regist__button{
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    margin-right: 60px;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 10px;
+}
+.regist__btn {
+    width: 120px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: azure;
+    position: relative;
+    top: 2px;
+}
+/*header zagolovok*/
+.header__zagolovok {
+    margin-top: 120px;
+    width: 650px;
+    margin-left: 100px;
+}
+.zagolovok1 {
+    display: block;
+    width: auto;
+}
+
+.h1__zagolovok1 {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 46px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #ecac13 33%, #a6460a 66%, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  margin: 0;
+}
+.p__zagolovok1 {
+    width: auto;
+    font-size: 20px;
+    color: azure;
+}
+.button__zagolovok1 {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+}
+.btn1__zagolovok {
+    width: 160px;
+    text-align: center;
+    background-color: coral;
+    border-radius: 10px;
+}
+.a__btn1{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.btn2__zagolovok {
+    width: 180px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: coral;
+}
+.a__btn2{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+/*contact*/
+.contact {
+    margin-top: 410px;
+    border-radius: 10px;
+    border-style: solid;
+    color: coral;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+    fill: darkslateblue;
+    position: relative;
+    top: 5px;
+}
+.facebook {
+    fill: deepskyblue;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+.youtube {
+    fill: red;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+/*fitness plan*/
+.fitnes__plan {
+    background-image: url(../img/dark__foto.png);
+    width: auto;
+    height: 1000px;
+}
+.h1__fitnes_plan {
+    width: 550px;
+    color: azure;
+    font-size: 46px;
+    margin: auto;
+    padding-top: 60px;
+
+}
+.span__fitness_plan {
+    color: coral;
+    font-style: 46px;
+}
+.grid__fitnes_plan {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-top: 200px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+}
+.grid1 {
+    text-align: center;
+}
+.img__grid1 {
+}
+.h1__grid__fines_plan1 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan1 {
+    color: azure;
+    font-size: 20px;
+}
+.grid2 {
+    text-align: center;
+}
+.img__grid2 {
+    text-align: center;
+}
+.h1__grid__fines_plan2 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan2 {
+    color: azure;
+    font-size: 20px;
+}
+.grid3 {
+    text-align: center;
+}
+.img__grid3 {
+}
+.h1__grid__fines_plan3 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan3 {
+    color: azure;
+    font-size: 20px;
+}
+.grid4 {
+    text-align: center;
+}
+.img__grid4 {
+}
+.h1__grid__fines_plan4 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan4 {
+    color: azure;
+    font-size: 20px;
+}
+.grid5 {
+    text-align: center;
+}
+.img__grid5 {
+
+}
+.h1__grid__fines_plan5 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan5 {
+    color: azure;
+    font-size: 20px;
+}
+.grid6 {
+    text-align: center;
+}
+.img__grid6 {
+}
+.h1__grid__fines_plan6 {
+    color: coral;
+    font-size: 30px;
+}
+.p__fitnes_plan6 {
+    color: azure;
+    font-size: 20px;
+}
+/*subscribe plan*/
+.subscribe__plan {
+    height: 600px;
+}
+.h1__sub_plan {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 46px;
+    color: azure;
+}
+.span__kurs{
+    font-size: 46px;
+    color: coral;
+}
+.grid__plan {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    margin: auto;
+}
+.plan1 {
+    width: 300px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: coral;
+}
+.name__plan1 {
+    padding-top: 40px;
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+}
+.p__data_plane1 {
+    padding-top: 30px;
+    font-size: 16px;
+    color: azure;
+    text-align: center;
+}
+.p__price1 {
+    padding-top: 10px;
+    font-size: 18px;
+    -webkit-text-stroke: 0.3px coral;
+    -webkit-text-fill-color: azure;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.button__sign_up {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: coral;
+    margin: auto;
+}
+.sign_up__btn {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: azure;
+}
+.plan2 {
+    width: 300px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: coral;
+}
+.name__plan2 {
+    text-align: center;
+    font-size: 24px;
+    color: azure;
+    padding-top: 40px;
+}
+.p__data_plane2 {
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    padding-top: 30px;
+}
+.p__price2 {
+    text-align: center;
+    font-size: 18px;
+    -webkit-text-stroke: 0.3px coral;
+    -webkit-text-fill-color: azure;
+    padding-bottom: 40px;
+}
+.plan3 {
+    width: 300px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: coral;
+}
+.name__plan3 {
+    text-align: center;
+    font-size: 24px;
+    color: azure;
+    padding-top: 40px;
+}
+.p__data_plane3 {
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    padding-top: 30px;
+}
+.p__price3 {
+    text-align: center;
+    font-size: 18px;
+    -webkit-text-stroke: 0.3px coral;
+    -webkit-text-fill-color: azure;
+    padding-bottom: 40px;
+}
+/*join trainer*/
+.join__trainer {
+    height: 800px;
+}
+.h1__join__trainer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    font-size: 46px;
+    color: azure;
+}
+.span__trainer{
+    color: coral;
+}
+.grid__trainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tainer1 {
+    width: 280px;
+}
+.trainer__img1 {
+}
+.p__trainer1 {
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+}
+.tainer2 {
+    width: 280px;
+}
+.trainer__img2 {
+}
+.p__trainer2 {
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+}
+.tainer3 {
+    width: 280px;
+}
+.trainer__img3 {
+}
+.p__trainer3 {
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+}
+/*why join us*/
+.why__join__us {
+    height: 600px;
+}
+.h1__why__join__us {
+    font-size: 46px;
+    width: 700px;
+    color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.span__question{
+    color: coral;
+}
+.question__foto {
+    display: flex;
+}
+.question {
+    width: 600px;
+    background-color: #170e04;
+    height: 200px;
+    margin-left: 80px;
+}
+.li__question1 {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: azure;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.li__question2 {
+    padding-left: 20px;
+    color: azure;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.li__question3 {
+    padding-left: 20px;
+    color: azure;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.li__question4 {
+    padding-left: 20px;
+    color: azure;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.foto__quest{
+    margin-left: 50px;
+}
+.img__quest2{
+    margin-left: 40px;
+}
+.button__see__more {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: coral;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.a__see__more {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+}
+
+
+
+
+
+
