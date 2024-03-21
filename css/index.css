@@ -1,8 +1,9 @@
 body{
     margin: 0;
     background-color: black;
-    font-family: "Lucida Sans";
+    font-family: "Roboto Condensed", sans-serif;;
 }
+
 /*header*/
 .header {
     background-image: url(../img/header_foto.png);
@@ -415,39 +416,95 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.trainer__card1 {
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: coral;
+    text-align: center;
+    height: 550px;
+}
 .tainer1 {
-    width: 280px;
+    width: auto;
+    
 }
 .trainer__img1 {
+    width: 240px;
+    height: 300px;
 }
 .p__trainer1 {
-    font-size: 24px;
     color: azure;
+    font-size: 18px;
+}
+.p__opt1 {
+    color: azure;
+    font-size: 18px;
+    
+}
+.p__slogan1 {
+    color: azure;
+    font-size: 18px;
+}
+.trainer__card2 {
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: coral;
     text-align: center;
+    height: 550px;
 }
 .tainer2 {
-    width: 280px;
+    width: auto;
+    height: auto;
 }
 .trainer__img2 {
+    width: 240px;
+    height: 300px;
 }
 .p__trainer2 {
-    font-size: 24px;
     color: azure;
+    font-size: 18px;
+}
+.p__slogan2{
+    color: azure;
+    font-size: 18px;
+}
+.p__opt2{
+    color: azure;
+    font-size: 18px;
+}
+.trainer__card3 {
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: coral;
     text-align: center;
+    height: 550px;
 }
 .tainer3 {
-    width: 280px;
+    width: auto;
 }
 .trainer__img3 {
+    width: 240px;
+    height: 300px;
 }
 .p__trainer3 {
-    font-size: 24px;
     color: azure;
-    text-align: center;
+    font-size: 18px;
 }
+.p__slogan3{
+    color: azure;
+    font-size: 18px;
+}
+.p__opt3{
+    color: azure;
+    font-size: 18px;
+}
+
 /*why join us*/
 .why__join__us {
     height: 600px;
+    margin-top: 180px;
 }
 .h1__why__join__us {
     font-size: 46px;
@@ -511,11 +568,189 @@ body{
 }
 .a__see__more {
     position: relative;
-    top: 5px;
+    top: 7px;
     text-decoration: none;
     font-size: 20px;
     color: azure;
 }
+/*info*/
+.info {
+    display: flex;
+    width: auto;
+    background-color: #120a03;
+}
+.logotip__flooter {
+    width: 200px;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.img__flooter {
+}
+.p__logo__flooter {
+    color: azure;
+    font-size: 18px;
+}
+.company {
+    padding-left: 300px;
+    width: 200px;
+    text-align: center;
+    display: block;
+}
+.h1__company1 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: azure;
+    margin: 0;
+}
+.p__company2 {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+
+.contact__flooter {
+    width: 200px;
+    text-align: center;
+}
+.h1__contact1 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: 0;
+    color: azure;
+}
+.p__contact2 {
+    margin: 0;
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+.other {
+    width: 200px;
+    text-align: center;
+}
+.h1__other1 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: 0;
+    color: azure;
+}
+.p__other2 {
+    margin: 0;
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+.popular__tag {
+    width: 300px;
+    text-align: center;
+    padding-left: 40px;
+}
+.h1__popular__tag {
+    color: azure;
+    margin: 0;
+    padding-top: 80px;
+}
+.grid__tag {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: 30px 30px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.abs__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.abs {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+
+}
+.workout__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.workout {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+}
+.nutrition__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.nutrition {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+}
+.gym__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.gym {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+}
+.plan__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.plan {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+}
+.trainer__tag{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+}
+.trainer {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #2e1f0f;
+}
+/*footer*/
+.footer {
+    width: auto;
+    background-color: coral;
+    height: 110px;
+}
+.footer__text {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    padding-top: 30px;
+}
+.img__footer {
+    position: relative;
+    top: 8px;
+    fill: azure;
+    width: 40px;
+    height: 40px;
+}
+.p__footer {
+    padding-left: 10px;
+    color: azure;
+    font-size: 20px;
+}
+
+
 
 
 
