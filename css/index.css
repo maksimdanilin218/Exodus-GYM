@@ -10,15 +10,32 @@ body{
     margin-left: -24px;
     background-repeat: no-repeat;
     width: auto;
-    height: 1000px;
+    height: 880px;
 }
+.menu__laptop{
+    display: flex;
+    width: 1400px;
+    justify-content: space-around;
+    height: 140px;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
 .menu {
     width: auto;
     display: flex;
     justify-content: space-between;
-    height: 170px;
+    height: 140px;
     width: auto;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
 }
+
 .logotip {
     width: 130px;
     height: 100px;
@@ -29,8 +46,9 @@ body{
     display: flex;
     width: auto;
     margin-top: 60px;
-    height: 30px;
+    height: 50px;
     gap: 30px;
+    align-items: stretch;
 }
 .home__btn {
     width: 100px;
@@ -62,13 +80,13 @@ body{
     color: azure;
 }
 .regist__button{
-    margin-top: -10px;
     width: 170px;
     height: 35px;
     text-align: center;
     margin-right: 60px;
-    border-style: solid;
+    border-radius: 0px;
     border-color: coral;
+    border-style: solid;
     border-radius: 10px;
 }
 .regist__btn {
@@ -77,12 +95,71 @@ body{
     font-size: 24px;
     text-align: center;
     color: azure;
-    position: relative;
-    top: 2px;
 }
+/*burger__btn*/
+.open{
+    display: flex !important;
+}
+.mobile__menu{
+    display: none;
+}
+.nav{
+    display: flex;
+    width: auto;
+}
+.nav ul{
+    width: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: azure;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #fff;
+}
+.burger::before, .burger::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.burger::before{
+    top: 0;
+}
+.burger::after{
+    bottom: 0;
+}
+.burger.active span{
+    transform: scale(0);
+}
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
 /*header zagolovok*/
 .header__zagolovok {
-    margin-top: 120px;
+    padding-top: 320px;
     width: 650px;
     margin-left: 100px;
 }
@@ -90,7 +167,6 @@ body{
     display: block;
     width: auto;
 }
-
 .h1__zagolovok1 {
   font-family: 'Rubik One', sans-serif;
   font-size: 46px;
@@ -120,6 +196,7 @@ body{
     border-radius: 10px;
 }
 .a__btn1{
+    
     color: azure;
     text-decoration: none;
     font-size: 20px;
@@ -142,7 +219,7 @@ body{
 }
 /*contact*/
 .contact {
-    margin-top: 410px;
+    margin-top: 260px;
     border-radius: 10px;
     border-style: solid;
     color: coral;
@@ -762,6 +839,224 @@ body{
     padding-left: 10px;
     color: azure;
     font-size: 20px;
+}
+@media screen and (min-width: 370px) and (max-width: 480px){
+    .menu__laptop{
+        display: none;
+    }
+    .mobile__menu{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logotip{
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    .burger{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .nav.active{
+        background-color: black;
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 270px;
+        width: 180px;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow: auto;
+        padding: 20px 40px;
+        background-color: black;
+        animation: burgerAnimation 0.4s;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: coral;
+    }
+    .nav ul{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    @keyframes burgerAnimation {
+        from {opacity: 0;}
+        t {opacity: 1;}
+    }
+    li{
+        width: 130px;
+        height: 30px;
+        font-size: 18px;
+    }
+    /*header*/
+    .header{
+        background-image: none;
+    }
+    .header__zagolovok{
+        margin: auto;
+        width: 360px;
+        padding-top: 200px;
+    }
+    .zagolovok1{
+        
+    }
+    .h1__zagolovok1{
+        font-size: 26px;
+    }
+    /*fitnes plan*/
+    .fitnes__plan{
+        text-align: center;
+        height: 2200px;
+
+    }
+    .h1__fitnes_plan{
+        width: 360px;
+        font-size: 28px;
+    }
+    .grid__fitnes_plan{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+    }
+    .grid1{
+        width: 360px;
+        margin: auto;
+    }
+    .grid2{
+        width: 360px;
+        margin: auto;
+    }
+    .grid3{
+        width: 360px;
+        margin: auto;
+    }
+    .grid4{
+        width: 360px;
+        margin: auto;
+    }
+    .grid5{
+        width: 360px;
+        margin: auto;
+    }
+    .grid6{
+        width: 360px;
+        margin: auto;
+    }
+    /*subscribe plan*/
+    .subscribe__plan{
+        width: auto;
+        text-align: center;
+        height: 1400px;
+    }
+    .h1__sub_plan{
+        font-size: 28px;
+        width: 360px;
+    }
+    .span__kurs{
+        font-size: 28px;
+    }
+    .grid__plan{
+        gap: 30px;
+        width: 310px;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    /*join trainer*/
+    .join__trainer{
+        width: auto;
+        text-align: center;
+        height: 2000px;
+    }
+    .h1__join__trainer{
+        width: 360px;
+        font-size: 26px;
+    }
+    .grid__trainer{
+        display: grid;
+        width: 310px;
+        gap: 40px;
+        margin: auto;
+        grid-template-columns: repeat(1,3fr);
+    }
+    /*why join us*/
+    .why__join__us{
+        width: auto;
+        height: 800px;
+    }
+    .h1__why__join__us{
+        width: 360px;
+        font-size: 26px;
+    }
+    .question__foto{
+        display: block;
+        height: 500px;
+    }
+    .question{
+        width: 360px;
+        height: 150px;
+        margin: auto;
+    }
+    .li__question1{
+        font-size: 18px;
+    }
+    .li__question2{
+        font-size: 18px;
+    }
+    .li__question3{
+        font-size: 18px;
+    }
+    .li__question4{
+        font-size: 18px;
+    }
+    .foto__quest{
+        width: 360px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img__quest1{
+        width: 150px;
+        height: 180px;
+    }
+    .img__quest2{
+        width: 150px;
+        height: 180px;
+    }
+    /*info*/
+    .info{
+        display: block;
+        width: auto;
+        height: 1100px;
+        text-align: center;
+    }
+    .info2{
+        display: block;
+        width: 360px;
+        margin: auto;
+        text-align: center;
+    }
+    .logotip__flooter{
+        padding: 40px 0 0 0;
+        margin-top: 40px;
+        margin: auto;
+    }
+    .company{
+        padding: 0;
+        margin: auto;
+    }
+    .contact__flooter{
+        margin: auto;
+    }
+    .other{
+        margin: auto;
+    }
+    .popular__tag{
+        padding: 0;
+        margin: auto;
+    }
 }
 
 
