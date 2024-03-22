@@ -183,7 +183,7 @@ li{
     color: azure;
 }
 .button__zagolovok1 {
-    width: 400px;
+    width: auto;
     height: 40px;
     display: flex;
     margin-top: 80px;
@@ -1005,6 +1005,7 @@ li{
     .h1__why__join__us{
         width: 360px;
         font-size: 26px;
+        margin-bottom: 40px;
     }
     .question__foto{
         display: block;
@@ -1012,20 +1013,39 @@ li{
     }
     .question{
         width: 360px;
-        height: 150px;
+        height: 200px;
         margin: auto;
     }
     .li__question1{
         font-size: 18px;
+        width: 250px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        
     }
     .li__question2{
         font-size: 18px;
+        width: 250px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        
     }
     .li__question3{
         font-size: 18px;
+        width: 300px;
+        height: 30px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        
     }
     .li__question4{
         font-size: 18px;
+        width: 250px;
+        height: 40px;
+        padding-left: 10px;
+        
     }
     .foto__quest{
         width: 360px;
