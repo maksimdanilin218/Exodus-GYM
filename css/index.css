@@ -30,17 +30,18 @@ body{
     width: auto;
     margin-top: 60px;
     height: 30px;
-    gap: 20px;
+    gap: 30px;
 }
 .home__btn {
-    width: 120px;
+    width: 100px;
     text-decoration: none;
     font-size: 24px;
     text-align: center;
     color: azure;
+    transition: all 0.5s;
 }
 .training__btn {
-    width: 160px;
+    width: 140px;
     text-decoration: none;
     font-size: 24px;
     text-align: center;
@@ -54,13 +55,14 @@ body{
     color: azure;
 }
 .contact__btn {
-    width: 140px;
+    width: 120px;
     text-decoration: none;
     font-size: 24px;
     text-align: center;
     color: azure;
 }
 .regist__button{
+    margin-top: -10px;
     width: 170px;
     height: 35px;
     text-align: center;
@@ -109,7 +111,7 @@ body{
     height: 40px;
     display: flex;
     margin-top: 80px;
-    gap: 20px;
+    gap: 40px;
 }
 .btn1__zagolovok {
     width: 160px;
@@ -122,7 +124,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     position: relative;
-    top: 10px;
+    top: 9px;
 }
 .btn2__zagolovok {
     width: 180px;
@@ -326,7 +328,7 @@ body{
     -webkit-text-stroke: 0.3px coral;
     -webkit-text-fill-color: azure;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
 }
 .button__sign_up {
     width: 120px;
@@ -366,7 +368,7 @@ body{
     font-size: 18px;
     -webkit-text-stroke: 0.3px coral;
     -webkit-text-fill-color: azure;
-    padding-bottom: 40px;
+    padding-bottom: 65px;
 }
 .plan3 {
     width: 300px;
@@ -379,20 +381,21 @@ body{
     text-align: center;
     font-size: 24px;
     color: azure;
-    padding-top: 40px;
+    padding-top: 50px;
+    margin: 0;
 }
 .p__data_plane3 {
     text-align: center;
     font-size: 16px;
     color: azure;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .p__price3 {
     text-align: center;
     font-size: 18px;
     -webkit-text-stroke: 0.3px coral;
     -webkit-text-fill-color: azure;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 /*join trainer*/
 .join__trainer {
@@ -428,9 +431,13 @@ body{
     width: auto;
     
 }
+.trainer__a1{
+}
 .trainer__img1 {
     width: 240px;
     height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .p__trainer1 {
     color: azure;
@@ -460,6 +467,8 @@ body{
 .trainer__img2 {
     width: 240px;
     height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .p__trainer2 {
     color: azure;
@@ -487,6 +496,7 @@ body{
 .trainer__img3 {
     width: 240px;
     height: 300px;
+    border-radius: 10px;
 }
 .p__trainer3 {
     color: azure;
@@ -576,8 +586,12 @@ body{
 /*info*/
 .info {
     display: flex;
+    justify-content: space-between;
     width: auto;
     background-color: #120a03;
+}
+.info2{
+    display: flex;
 }
 .logotip__flooter {
     width: 200px;
@@ -592,7 +606,7 @@ body{
     font-size: 18px;
 }
 .company {
-    padding-left: 300px;
+    padding-left: 200px;
     width: 200px;
     text-align: center;
     display: block;

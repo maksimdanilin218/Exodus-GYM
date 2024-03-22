@@ -1,0 +1,123 @@
+/*header menu buttton.  index.html*/
+.home__btn{
+    transition: all 0.5s;
+}
+.home__btn:hover {
+    transform: scale(1.2);
+    
+}
+.training__btn {
+    transition: all 0.5s;
+}
+.shop__btn {
+    transition: all 0.5s;
+}
+.contact__btn {
+    transition: all 0.5s;
+}
+.training__btn:hover{
+    transform: scale(1.2);
+}
+.shop__btn:hover{
+    transform: scale(1.2);
+}
+.contact__btn:hover{
+    transform: scale(1.2);
+}
+.regist__button{
+    transition: all 0.5s;
+}
+.regist__button:hover{
+    transform: scale(1.1);
+}
+.regist__btn{
+    transition: all 0.5s;
+}
+.regist__btn:hover{
+    
+}
+/*header zagolovok*/
+.btn1__zagolovok {
+    transition: all 0.3s;
+}
+.a__btn1 {
+    transition: all 0.5s;
+}
+.btn1__zagolovok:hover {
+    transform: scale(1.2);
+}
+.a__btn1:hover {
+
+}
+.btn2__zagolovok {
+    
+    transition: all 0.3s ;
+}
+.a__btn2 {
+    transition: all 0.3s;
+}
+.btn2__zagolovok:hover {
+    transform: scale(1.2);
+}
+.a__btn2:hover {
+    
+}
+/*fitnes plan*/
+.button__sign_up {
+    transition: all 0.5s;
+}
+.sign_up__btn {
+    transition: all 0.5s;
+}
+.button__sign_up:hover {
+    transform: scale(1.3);
+}
+.sign_up__btn:hover {
+    
+}
+/*subscribe plan button see more*/
+.button__see__more{
+    transition: all 0.5s;
+}
+.button__see__more:hover{
+    transform: scale(1.2);
+}
+/*grid tag*/
+.abs__tag{
+    transition: all 0.5s;
+}
+.workout__tag{
+    transition: all 0.5s;
+}
+.nutrition__tag{
+    transition: all 0.5s;
+}
+.gym__tag{
+    transition: all 0.5s;
+}
+.plan__tag{
+    transition: all 0.5s;
+}
+.trainer__tag{
+    transition: all 0.5s;
+}
+
+.abs__tag:hover{
+    transform: scale(1.2);
+}
+.workout__tag:hover{
+    transform: scale(1.2);
+}
+.nutrition__tag:hover{
+    transform: scale(1.2);
+}
+.gym__tag:hover{
+    transform: scale(1.2);
+}
+.plan__tag:hover{
+    transform: scale(1.2);
+}
+.trainer__tag:hover{
+    transform: scale(1.2);
+}
+
